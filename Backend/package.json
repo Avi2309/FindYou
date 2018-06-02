@@ -1,0 +1,20 @@
+{
+  "name": "findyou",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "babel-node server.js --presets es2015,stage-2 ; nodemon server.js"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "^4.16.3",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "nodemon": "^1.17.5"
+  }
+}
